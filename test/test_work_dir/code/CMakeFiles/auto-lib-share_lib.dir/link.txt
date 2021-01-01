@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -fdiagnostics-color=always -ggdb3 -shared -Wl,-soname,libshare_lib.so -o ../../backend_libs/libshare_lib.so CMakeFiles/auto-lib-share_lib.dir/src/share_lib/another_lib.c.o 

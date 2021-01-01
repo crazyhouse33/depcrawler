@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -fdiagnostics-color=always -ggdb3 -shared -Wl,-soname,libEXT_dependence1.so -o ../../backend_libs/libEXT_dependence1.so CMakeFiles/auto-lib-EXT_dependence1.dir/extern/src/dependence1/ext_src.c.o 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../rings/code/extern/src/dependence1/includes/ext_src.h
+
+/opt/personnal_stuff/auto-CMake/rings/code/extern/src/dependence1/ext_src.c
+stdio.h
+-
+ext_src.h
+/opt/personnal_stuff/auto-CMake/rings/code/extern/src/dependence1/ext_src.h
+

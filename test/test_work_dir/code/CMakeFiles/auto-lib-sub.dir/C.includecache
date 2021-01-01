@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../rings/code/src/sub/int_src.h
+
+/opt/personnal_stuff/auto-CMake/rings/code/src/sub/c/int_src.c
+stdio.h
+-
+stdlib.h
+-
+int_src.h
+/opt/personnal_stuff/auto-CMake/rings/code/src/sub/c/int_src.h
+

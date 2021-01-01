@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -fdiagnostics-color=always -ggdb3 -shared -Wl,-soname,libsub_COPY_STATIC.so -o ../../backend_libs/libsub_COPY_STATIC.so CMakeFiles/__lib-sub_COPY_STATIC.dir/src/sub/c/int_src.c.o 
