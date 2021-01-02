@@ -2,6 +2,8 @@ import lief
 from collections import OrderedDict
 from depcrawler.dependency import Dependency_Group
 
+
+"""This should be lief job"""
 class My_bin(lief.Binary):
     def libraries_deps():
         """ Return a list of direct and indirect dependencies libs. This should be in the same order as loader"""

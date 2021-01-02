@@ -1,6 +1,6 @@
 from depcrawler.bin.parser import args
-from depcrawler.linker_map import LinkerMapDependencies
-from depcrawler.dyndep import LoaderDependencies
+from depcrawler.static.linker_map import LinkerMapDependencies
+from depcrawler.dyn.dyndep import LoaderDependencies
 from depcrawler.dependency import Dependency_Group
 
 dependencies= Dependency_Group()
