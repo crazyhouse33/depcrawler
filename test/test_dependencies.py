@@ -1,5 +1,4 @@
 import pytest
-from depcrawler.linker_map import  LinkerMapParser
 from depcrawler.dependency import  Dependency_Group, Dependency_O
 import os
 
